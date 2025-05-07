@@ -1,0 +1,3 @@
+/home/nemanja/Desktop/ESP32/ESP32_IoT_Projects/HelloWorld/build/CMakeFiles/application.dir
+/home/nemanja/Desktop/ESP32/ESP32_IoT_Projects/HelloWorld/build/CMakeFiles/edit_cache.dir
+/home/nemanja/Desktop/ESP32/ESP32_IoT_Projects/HelloWorld/build/CMakeFiles/rebuild_cache.dir
