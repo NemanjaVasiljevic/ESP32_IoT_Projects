@@ -1,6 +1,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WiFiServer.h>
+#include "esp_wifi.h"
 
 #define USER_SSID "Vasiljevic-2.4G"
 #define USER_PASSWORD "RadenkoSalapura"
@@ -13,6 +14,8 @@ WiFiServer server(8080);
 void setup() {
   
     Serial.begin(115200);
+    WiFi.mode(WIFI_STA);
+    esp_wifi_set_max_tx_power(40); 
     WiFi.begin(USER_SSID, USER_PASSWORD);
 
     while (WiFi.status() != WL_CONNECTED) 
