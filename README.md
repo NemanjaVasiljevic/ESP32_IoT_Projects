@@ -1,3 +1,5 @@
+Link to JIRA: https://nemanjavasiljevic.atlassian.net/jira/software/projects/ESP32/boards/1
+
 This is main branch where all finished projects will be stored. 
 For project to be considered FINISHED it must have: 
 - Requirements written in any format
